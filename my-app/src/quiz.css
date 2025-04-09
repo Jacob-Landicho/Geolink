@@ -1,0 +1,113 @@
+/* quiz.css*/
+.quiz-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5000;
+}
+
+.quiz-content {
+  background: #fef3a5;
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+  z-index: 1001;
+}
+
+  .quiz-question {
+    margin-bottom: 15px;
+  }
+  
+  .quiz-question label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .correct {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .incorrect {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .submit-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+    z-index: 1001;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .street-view-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .street-view-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .close-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+
+  .read-aloud-button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .read-aloud-button:hover {
+    background-color: #218838;
+  }
+  

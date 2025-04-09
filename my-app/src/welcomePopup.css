@@ -1,0 +1,72 @@
+/* welcomePopup.css*/
+.popup-content {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.spinning-globe {
+  position: relative;  /* 🟢 Enable relative positioning for child */
+  background: url('world.jpg');
+  background-size: cover;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  animation: movimiento 25s linear infinite;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1),
+              -8px -8px 15px #000 inset,
+              2px 2px 25px #000 inset,
+              -45px -45px 25px rgba(0, 0, 0, 0.5) inset,
+              25px 25px 45px rgba(0, 0, 0, 0.45) inset;
+  margin: 2em auto;
+  transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+  display: flex; /* Optional if you want centered text */
+  align-items: center;
+  justify-content: center;
+  z-index: 5000;
+}
+
+.welcome-text {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center it */
+  text-align: center;
+  color: white;
+  padding: 20px;
+  z-index: 5000;
+}
+
+
+.begin-button {
+  background-color: #4a75f9;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.begin-button:hover {
+  background-color: #3b63d1;
+}
+
+@keyframes movimiento {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 355px 0;
+  }
+}
+
+
