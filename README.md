@@ -2,7 +2,7 @@
 
 GeoLink is an interactive web app that aims to make geography education fun and engaging for students. By combining historical data with gamification, users can explore the world, learn about countries and their history, take quizzes, and more.
 
-![GeoLink Logo](images/logo.png) <!-- Replace with your logo -->
+![GeoLink Logo](README%20Images/ss1.png) <!-- Replace with your logo -->
 
 **Target Audience:** K-12 students  
 **Platform:** Web  
@@ -17,7 +17,7 @@ In today’s interconnected world, students need to understand different countri
 
 GeoLink turns passive learning into active learning through exploration, quizzes, and games. The app incorporates **Constructivism** and **Universal Design for Learning (UDL)** principles to ensure a flexible, accessible, and engaging learning experience for everyone.
 
-![Geolink Screenshot](images/screenshot1.png) <!-- Replace with a screenshot showing the app -->
+![Geolink Screenshot](README%20Images/ss2.png) <!-- Replace with a screenshot showing the app -->
 
 ---
 
@@ -61,7 +61,8 @@ The design of **GeoLink** focuses on learning by doing, motivation through gamif
 - **Gamification:** Points, quizzes, and leaderboards make learning more fun.
 - **Accessibility:** Large buttons, bright colors, and simple navigation support all learners, including those with disabilities.
 
-![GeoLink Design](images/design_screenshot.png) <!-- Replace with a screenshot of the design/UI -->
+![GeoLink Design](README%20Images/ss3.png) <!-- Replace with a screenshot of the design/UI -->
+![GeoLink Design](README%20Images/ss4.png) <!-- Replace with a screenshot of the design/UI -->
 
 ---
 
